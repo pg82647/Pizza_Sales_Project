@@ -1,7 +1,7 @@
 # Pizza_Sales_Project
 Capstone Project on Pizza Sales
 
-
+<details>  
 <summary> BUSINESS UNDERSTANDING </summary>  
 
 - <h3> OBJECTIVE:</h3>  
@@ -36,7 +36,8 @@ In order to optimize sales, improve on existing menu offerings, and enhance cust
 6. Operational Efficiency & Order Fulfillment:  
   - Order Processing Time: If timestamps are available, what is the average time between order placement and fulfillment?  
   - Delivery vs. Dine-in Sales (if applicable): How do sales compare across different service channels?
-
+</details>  
+<details>  
 <summary> DATA UNDERSTANDING:</summary>  
 - <h3> DATASET OVERVIEW:</h3>  
 The dataset contains transactional data from 2015, including details such as pizza orders, pricing, quantities, and timestamps. Key metadata columns include:  
@@ -50,14 +51,19 @@ o	pizza_size: Size of the pizza (Small, Medium, Large).
 o	pizza_category: Category of pizza (e.g., Veggie, Non-Veg).  
 o	pizza_ingredients: List of ingredients in the pizza.  
 o	pizza_name: Human-readable name of the pizza.  
-This provides a structured view of the data to understand how sales can be analyzed in terms of volume, revenue, and customer behavior.
+This provides a structured view of the data to understand how sales can be analyzed in terms of volume, revenue, and customer behavior.  
+</details>  
+<details>  
 <summary> DATA PREPARATION:</summary>    
 The order_date column had a mix of date and text data types. All cells in the column were formatted to proper date data type.  
 A similar situation was noticed in the order_time column before they were all formatted to the proper time data type.  
 The unit_price and total_price columns were formatted to two decimal places with the dollar symbol added.  
 Five (5) columns were created to ease the analytical process. They are month, day_of_week, hour, price_grade, and quarter columns. While the month, day_of_week, and hour were extracted from order_date and order_time, the price_grade and quarter columns were classified based on unit_price and order_date columns.  
-<summary> ANALYSIS:</summary>  
+</details>  
+<details>  
+<summary> ## ANALYSIS:</summary>  
 Pivot tables, pivot charts and slicers were used to answer most of the business questions.  
 Two (2) dashboards were created. One is the REVENUE DASHBOARD while the other is a SALES DASHBOARD  
 Due to unavailable data, the second business question for number five and the questions for number six could not be treated at this time.
+</details>  
 
