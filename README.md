@@ -4,15 +4,15 @@ Capstone Project on Pizza Sales
 <details>  
 <summary> BUSINESS UNDERSTANDING </summary>  
 
-- <h3> OBJECTIVE:</h3>  
+- <h5> OBJECTIVE:</h5>  
 In order to optimize sales, improve on existing menu offerings, and enhance customer experience, the PIZZA SALES DATA (2015) was provided with the aim of making data-driven decisions and to maximise profit.  
-- <h3> KEY GOALS:</h3>  
+- <h5> KEY GOALS:</h5>  
   - BUSINESS ANALYSIS: Understand, Total Revenue, sales fluctuations, and seasonal trends  
   - PRODUCT PERFORMANCE: Identify top selling and least selling pizza types in order to optimize the menu/ingredients  
   - CONSUMER BEHAVIOUR: Understand purchasing patterns based on time, day, month, and order volume.  - PRICING AND DISCOUNTS: Assess the impact of pricing on sales and explore seasonal promotions.  
   - INGREDIENT OPTIMIZATION: Analyze the usage of ingredients and assess the cost vs. revenue for each pizza type.  
   - OPERATIONAL EFFICIENCY: Improve order fulfillment by analyzing order processing times and delivery vs. dine-in sales.  
-- <h3> BUSINESS QUESTIONS:</h3>  
+- <h5> BUSINESS QUESTIONS:</h5>  
 1. Sales Performance & Revenue Analysis:  
   - Total Revenue: What is the total revenue generated in 2015?.  
   - Monthly Revenue Trends: How do sales fluctuate across different months? Are there any seasonal patterns?  
@@ -39,7 +39,7 @@ In order to optimize sales, improve on existing menu offerings, and enhance cust
 </details>  
 <details>  
 <summary> DATA UNDERSTANDING:</summary>  
-- <h3> DATASET OVERVIEW:</h3>  
+- <h5> DATASET OVERVIEW:</h5>  
 The dataset contains transactional data from 2015, including details such as pizza orders, pricing, quantities, and timestamps. Key metadata columns include:  
 o	pizza_id: Unique pizza identifier.  
 o	order_id: Unique identifier for each order.  
@@ -61,7 +61,7 @@ The unit_price and total_price columns were formatted to two decimal places with
 Five (5) columns were created to ease the analytical process. They are month, day_of_week, hour, price_grade, and quarter columns. While the month, day_of_week, and hour were extracted from order_date and order_time, the price_grade and quarter columns were classified based on unit_price and order_date columns.  
 </details>  
 <details>  
-<summary> <strong> ANALYSIS: </strong> </summary>  
+<summary> ANALYSIS: </summary>  
 Pivot tables, pivot charts and slicers were used to answer most of the business questions.  
 Two (2) dashboards were created. One is the REVENUE DASHBOARD while the other is a SALES DASHBOARD  
 Due to unavailable data, the second business question for number five and the questions for number six could not be treated at this time.
