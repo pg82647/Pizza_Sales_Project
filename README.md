@@ -61,7 +61,9 @@ The unit_price and total_price columns were formatted to two decimal places with
 Five (5) columns were created to ease the analytical process. They are month, day_of_week, hour, price_grade, and quarter columns. While the month, day_of_week, and hour were extracted from order_date and order_time, the price_grade and quarter columns were classified based on unit_price and order_date columns.  
 </details>  
 <details>  
-<summary> <h3> ANALYSIS:</h3> </summary>  
+    <summary>  
+    <h3> ANALYSIS: </h3>  
+    </summary>  
 Pivot tables, pivot charts and slicers were used to answer most of the business questions.  
 Two (2) dashboards were created. One is the REVENUE DASHBOARD while the other is a SALES DASHBOARD  
 Due to unavailable data, the second business question for number five and the questions for number six could not be treated at this time.
